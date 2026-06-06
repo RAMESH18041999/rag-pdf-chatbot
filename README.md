@@ -1,6 +1,6 @@
 # RAG PDF Chatbot
 
-AI-powered RAG (Retrieval-Augmented Generation) chatbot for answering questions from PDF documents using LangChain, FAISS, and OpenAI API.
+AI-powered RAG (Retrieval-Augmented Generation) chatbot for answering questions from PDF documents using LangChain, pinecone, and Groq API.
 
 ---
 
@@ -10,7 +10,7 @@ AI-powered RAG (Retrieval-Augmented Generation) chatbot for answering questions 
 - Ask questions from uploaded PDFs
 - Context-aware intelligent responses
 - Semantic search using vector embeddings
-- Fast document retrieval with FAISS
+- Fast document retrieval with Pinecone
 - Interactive chatbot interface
 - REST API integration
 
@@ -23,16 +23,15 @@ AI-powered RAG (Retrieval-Augmented Generation) chatbot for answering questions 
 
 ### Generative AI & LLM
 - LangChain
-- OpenAI API
+- Groq API
 - RAG Architecture
 - Embeddings
 
 ### Vector Database
-- FAISS
+- Pinecone
 
 ### Backend
 - FastAPI
-- Flask
 
 ### Frontend
 - HTML
@@ -52,7 +51,7 @@ AI-powered RAG (Retrieval-Augmented Generation) chatbot for answering questions 
 2. Extract text from PDF
 3. Split text into chunks
 4. Generate embeddings
-5. Store embeddings in FAISS vector database
+5. Store embeddings in pinecone vector database
 6. Retrieve relevant context
 7. Generate intelligent answers using LLM
 
